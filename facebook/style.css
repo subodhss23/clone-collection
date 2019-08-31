@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 .main-container{
     /* display: grid;
     grid-template-columns: autofill(repeat,minmax(100px, 1 , 100px));
@@ -30,20 +34,32 @@
 .login-container > .login-input{
     display: flex;
     flex-direction: column;
+    border
 } */
 
-.login-input > .login-input-box{
-    margin: 0;
-    padding: 0;
+.login-input-box{
     display: flex;
     flex-direction: column;
+    height: 14vh;
+    /* border: 2px solid black; */
+    padding-top: 2vh;
 }
+
+
+/* .login-input > .login-input-box{
+     margin: 0;
+    padding: 0; 
+     display: flex;
+    flex-direction: column;
+}  */
 
 .login-input-box > input{
     width: auto;
-    height: 5vh;
-    text-align: center;
+    height: 7vh;
+    /* text-align: center; */
     font-size: 1em;
+    text-indent: 20px;
+    border-radius: 5px;
 }
 
 .login-input > #login-button{
@@ -71,7 +87,7 @@
     text-align: center;
     border-bottom: 1px solid #CCD0D4;
     line-height: 0.1em;
-    margin: 10px 0 20px 50px; 
+    margin: 10px 0 20px 10%; 
 } 
 
 .hr-line > h4 span{
@@ -81,30 +97,57 @@
 
 
 .login-input-box-2 > #create-new-acc{
-    width: 80%;
+    /* width: 80%; */
     background-color: #02A400;
+    width: 40%;
+    height: 5vh;
+    border: none;
+    border-radius: 6px;
+    margin: 10px 0;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.login-input-box-2 > .inner-login-input{
+    border: 1px solid red;
+    text-decoration: none;
+    font-size: .8em;
+    word-spacing: .2em;
+    padding-bottom: 2em;
+
+}
+
+.inner-login-input > a{
+     color: #7596C8;
 }
 
 .footer-container{
     border: 1px solid green;
-    margin: 0 30%;
+    width: 100vw;
+ 
 }
 
+.footer-container > .container-1{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+}
 
+.container-left,
+.container-right{
+    display: flex;
+    flex-direction: column;
+    font-size: .8em;
+}
 
+.container-left a{
+    color: #576B95;
+}
+.container-right  a {
+    color: #7485A8;
+}
 
-
-
-@media screen and(max-width: 700px){
-        .main-container{
-            color:#FFF;
-        }
-
-        .header{
-            background-color:#3B5998;
-        }
-
-        .login-container{
-            background-color: #EBEFF5;
-        }
+.container-2 > .copyright{
+    color:#808080;
 }
