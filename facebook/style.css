@@ -18,17 +18,19 @@ a{
 .header{
     background-color: #3b5998;
     color: white;
+    font-family:  sans-serif;
+    font-weight: 900;
    
 }
 
 .secondary-main-container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: #EBEFF5;
 }
 
 .login-container{
     margin: 0 30%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 /* 
 .login-container > .login-input{
@@ -110,7 +112,7 @@ a{
 }
 
 .login-input-box-2 > .inner-login-input{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-decoration: none;
     font-size: .8em;
     word-spacing: .2em;
@@ -123,7 +125,7 @@ a{
 }
 
 .footer-container{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 100vw;
  
 }
@@ -131,7 +133,7 @@ a{
 .footer-container > .container-1{
     display: flex;
     justify-content: space-around;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .container-left,
